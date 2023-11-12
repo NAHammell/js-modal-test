@@ -40,6 +40,7 @@ body {
     top: 0;
     left: 0;
     position: fixed;
+    background-color: rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -67,4 +68,14 @@ body {
     border: none;
     cursor: pointer;
     color: red;
+}
+
+@keyframes animatemodal {
+    from {
+        top: -300px;
+        opacity: 0;
+    } to {
+        top: 50%;
+        opacity: 1;
+    }
 }
